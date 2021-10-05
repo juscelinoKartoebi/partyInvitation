@@ -16,7 +16,7 @@ public class Main {
 		guests = scanner.nextInt();
 		dParty.setGuests(guests);
 		System.out.println("Enter the menu option: 1 for chicken or 2 for beef: ");
-		
+
 		choice = scanner.nextInt();
 		dParty.setDinnerChoice(choice);
 		System.out.println("The party has " + dParty.getGuests() + " guests ");
